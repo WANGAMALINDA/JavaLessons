@@ -1,0 +1,32 @@
+String methods
+
+.length();
+.charAt(index)
+.indexOf("Char")
+.lastIndexOf("Char")
+.toUpperCase()
+.toLowerCase()
+.trim()
+.replace("char", "with char")
+.isEmpty() //true or false
+.equals() (==) case sensitive compare
+.equalsIgnoreCase()
+.contains("Char")
+
+Array methods
+.sort(arrayName)
+.fill(arrayName, "Item")
+
+
+A substring is a method of extracting a portion of a string
+.substring(start, end)
+
+import java.util.Scanner;
+
+public class TernaryOperator(){
+    public static void main(String [] args){
+        Scanner scanner = new Scanner(System.in);
+
+        scanner.close();
+    }
+}
