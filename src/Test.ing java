@@ -1,0 +1,15 @@
+
+
+// --- SUBCLASS: FileLogger (Inheritance & Polymorphism) ---
+
+
+// --- THREADING: LogRunner using Thread class ---
+// Bug 4: Is this the correct way to inherit from the Thread class?
+
+
+// --- MAIN APPLICATION ---
+public class DebuggingPractice {
+    public static void main(String[] args) {
+       
+    }
+}
