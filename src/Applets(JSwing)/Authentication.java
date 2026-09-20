@@ -24,7 +24,7 @@ public class Authentication extends JFrame implements ActionListener {
         JLabel passwordLabel = new JLabel("Enter Password: ");
         password = new JTextField(15);
 
-        JLabel roleLabel = new JLabel("Seect Role: ");
+        JLabel roleLabel = new JLabel("Select Role: ");
         String[] roles = {
                 "User",
                 "Admin",
@@ -85,6 +85,8 @@ public class Authentication extends JFrame implements ActionListener {
         if (authenticated) {
             display.setText(
                     "Validation Successful! \nUsername: " + Username + "\nPasssword: " + Password + "\nRole: " + Role);
+            new MovieSelection();
+            dispose();
         } else {
             display.setText("Validation Unsuccessful, recheck credintials!");
         }
