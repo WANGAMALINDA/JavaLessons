@@ -24,7 +24,7 @@ public class LibraryServer {
         "Client Requested "
         + request);
 
-       client.close();-
+       client.close();
 
         server.close();
     }
